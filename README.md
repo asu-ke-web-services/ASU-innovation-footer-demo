@@ -11,3 +11,4 @@ You can preview the footer here: https://gios-asu.github.io/ASU-innovation-foote
 ![Image of original Desktop](./screenshots/original-desktop.png)
 ![Image of original Desktop](./screenshots/original-mobile.png)
 
+*note: In the original only the "Learn to thrive" text is a link, in the variation the image and the white text are both links*
