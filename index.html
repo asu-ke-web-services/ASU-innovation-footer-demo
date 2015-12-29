@@ -683,13 +683,51 @@ Tempe, AZ 85281<br>
       </div><!-- /.container -->
 
     </div><!-- /.big-foot -->
-    <div class="container innovation-bar">
-      <div class="row">
-        <div class="col-md-12">
-          This is a new footer bar
-        </div>
+
+
+<!-- This is a mockup implementation, these styles should be reimplemented before going into production -->
+<style type="text/css">
+#innovation-bar {
+  background-color: #903; 
+  text-align: right;
+}
+#innovation-bar a {
+  color: white;
+  font-size: x-large;
+  font-weight: 700;
+  border-bottom: 0;
+}
+#innovation-bar a:hover {
+  color: #ccc;
+}
+.innovation-footer-image-wrapper {
+  height:0;
+}
+.innovation-footer-image-wrapper a {
+  display: block;
+}
+.innovation-footer-image-wrapper img { 
+  position: relative;
+  top: -55px;
+  /*z-index: 99; */
+}
+</style>
+<div id="innovation-bar">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 space-top-sm space-bot-sm">
+        <a href="http://yourfuture.asu.edu/rankings">ASU is #1 in the U.S. for Innovation</a>
+      </div>
+      <div class="hidden-sm hidden-xs col-md-2 innovation-footer-image-wrapper">
+         <a href="http://yourfuture.asu.edu/rankings" target="_blank" id="best-colleges-us-news-bage-icon">
+          <img src="./index_files/best-colleges-us-news-badge.png" alt="Best Colleges U.S. News Most Innovative 2016">
+        </a>
       </div>
     </div>
+  </div>
+</div>
+<!-- END MOCKUP -->
+
     <div class="little-foot">
       <div class="container">
         <div class="row">
