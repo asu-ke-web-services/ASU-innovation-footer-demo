@@ -22,7 +22,7 @@ You can preview the footer here: https://gios-asu.github.io/ASU-innovation-foote
 ## SASS
 ```sass
 #innovation-bar {
-  background-color: #ffc627; /** ASU Gold */
+  background-color: #FFC627; /** ASU Gold */
   text-align: right;
 
   a {
@@ -41,15 +41,42 @@ You can preview the footer here: https://gios-asu.github.io/ASU-innovation-foote
     height: 0;
 
     a {
+      margin-top: -55px; 
       display: block;
     }
 
     img { 
       position: relative;
-      top: -55px;
     }
   }
 }
+## CSS
+```css
+#innovation-bar {
+  background-color: #FFC627; /** ASU Gold */
+  text-align: right;
+}
+#innovation-bar a {
+  border-bottom: 0;
+  color: black;
+  font-size: x-large;
+  font-weight: 700;
+}
+#innovation-bar a:hover {
+  border-bottom: dotted 1px;
+  color: #8C1D40; /** ASU Maroon */
+}
+#innovation-bar .innovation-footer-image-wrapper {
+  height: 0;
+}
+#innovation-bar .innovation-footer-image-wrapper a {
+  margin-top: -55px; 
+  display: block;
+}
+#innovation-bar .innovation-footer-image-wrapper img { 
+  position: relative;
+}
+```
 
 ```
 ## HTML
