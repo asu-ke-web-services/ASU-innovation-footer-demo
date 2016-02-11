@@ -690,30 +690,32 @@ Tempe, AZ 85281<br>
     </div><!-- /.big-foot -->
 
 
-<!-- This is a mockup implementation, these styles should be reimplemented before going into production -->
+<!-- This is a mockup implementation -->
 <style type="text/css">
+
 #innovation-bar {
-  background-color: #FFC627; 
+  background-color: #FFC627; /** ASU Gold */
   text-align: right;
 }
 #innovation-bar a {
+  border-bottom: 0;
   color: black;
   font-size: x-large;
   font-weight: 700;
-  border-bottom: 0;
 }
 #innovation-bar a:hover {
-  color: #903;
+  border-bottom: dotted 1px;
+  color: #8C1D40; /** ASU Maroon */
 }
-.innovation-footer-image-wrapper {
-  height:0;
+#innovation-bar .innovation-footer-image-wrapper {
+  height: 0;
 }
-.innovation-footer-image-wrapper a {
+#innovation-bar .innovation-footer-image-wrapper a {
+  margin-top: -55px; 
   display: block;
 }
-.innovation-footer-image-wrapper img { 
+#innovation-bar .innovation-footer-image-wrapper img { 
   position: relative;
-  top: -55px;
 }
 
 </style>
@@ -721,7 +723,7 @@ Tempe, AZ 85281<br>
   <div class="container">
     <div class="row">
       <div class="col-md-10 space-top-sm space-bot-sm">
-        <a href="http://yourfuture.asu.edu/rankings">ASU is #1 in the U.S. for Innovation</a>
+        <a href="http://yourfuture.asu.edu/rankings" target="_blank" id="asu-is-number-1-for-innovation">ASU is #1 in the U.S. for Innovation</a>
       </div>
       <div class="hidden-sm hidden-xs col-md-2 innovation-footer-image-wrapper">
          <a href="http://yourfuture.asu.edu/rankings" target="_blank" id="best-colleges-us-news-bage-icon">
