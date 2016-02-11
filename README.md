@@ -50,6 +50,8 @@ You can preview the footer here: https://gios-asu.github.io/ASU-innovation-foote
     }
   }
 }
+```
+
 ## CSS
 ```css
 #innovation-bar {
@@ -78,7 +80,7 @@ You can preview the footer here: https://gios-asu.github.io/ASU-innovation-foote
 }
 ```
 
-```
+
 ## HTML
 ```html
 <div id="innovation-bar">
